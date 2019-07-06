@@ -1,7 +1,7 @@
 {
-  "name": "botium-cli",
-  "version": "0.0.51",
-  "description": "Botium - The Selenium for Chatbots",
+  "name": "zhenshuo-botium-cli",
+  "version": "0.0.1",
+  "description": "For personal usage. Forked form https://github.com/codeforequity-at/botium-cli",
   "main": "dist/botium-cli-cjs.js",
   "module": "dist/botium-cli-es.js",
   "engines": {
@@ -38,7 +38,7 @@
       "node_modules/botium-connector-lex",
       "node_modules/botium-connector-luis",
       "node_modules/botium-connector-rasa",
-      "node_modules/botium-connector-watson",
+      "node_modules/zhenshuo-botium-connector-watson",
       "node_modules/botium-connector-webdriverio",
       "node_modules/botium-connector-wechat",
       "node_modules/opn",
@@ -88,7 +88,7 @@
     "botium-connector-lex": "0.0.2",
     "botium-connector-luis": "0.0.1",
     "botium-connector-rasa": "0.0.1",
-    "botium-connector-watson": "0.0.7",
+    "zhenshuo-botium-connector-watson": "0.0.1",
     "botium-connector-webdriverio": "0.1.1",
     "botium-connector-wechat": "0.0.1",
     "botium-core": "1.5.0",

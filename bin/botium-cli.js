@@ -46,7 +46,7 @@ yargsCmd.usage('Botium CLI\n\nUsage: $0 [options]') // eslint-disable-line
   .command(wrapHandler(require('../src/run')))
   .command(wrapHandler(require('botium-connector-alexa-smapi/src/alexaintents').args))
   .command(wrapHandler(require('botium-connector-dialogflow/src/dialogflowintents').args))
-  .command(wrapHandler(require('botium-connector-watson/src/watsonintents').args))
+  .command(wrapHandler(require('zhenshuo-botium-connector-watson/src/watsonintents').args))
   .command(wrapHandler(require('../src/emulator')))
   .command(wrapHandler(require('../src/box')))
   .command(wrapHandler(require('../src/init')))
