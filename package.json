@@ -1,6 +1,6 @@
 {
   "name": "zhenshuo-botium-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "For personal usage. Forked form https://github.com/codeforequity-at/botium-cli",
   "main": "dist/botium-cli-cjs.js",
   "module": "dist/botium-cli-es.js",
@@ -8,7 +8,7 @@
     "node": ">=8.3"
   },
   "bin": {
-    "botium-cli": "./bin/botium-cli.js"
+    "zhenshuo-botium-cli": "./bin/botium-cli.js"
   },
   "scripts": {
     "build": "npm run eslint && rollup -c",
